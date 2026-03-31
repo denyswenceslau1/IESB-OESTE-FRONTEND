@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
+:root {
+  /* Escala de neutros: preto a branco */
+  --gray-100: #f0eeff;
+  --gray-200: #d9d4f5;
+  --gray-300: #b8b0e8;
+  --gray-400: #7c72c4;
+  --gray-500: #4e4688;
+  --gray-600: #2e2860;
+  --gray-700: #1a1540;
+  --gray-800: #0e0b28;
+  --gray-900: #07051a;
+
+  /* Roxo como primary */
+  --primary-light: #c084fc;
+  --primary: #9333ea;
+  --primary-dark: #6b21a8;
+
+  --link-color: #a855f7;
+  --link-hover: #c084fc;
+
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #dc2626;
+  --info: #818cf8;
+
+  --text-over-primary: #ffffff;
+  --text-over-primary-dark: #f0eeff;
+  --text-over-primary-light: #07051a;
+  --text-over-success: #07051a;
+  --text-over-warning: #07051a;
+  --text-over-error: #ffffff;
+  --text-over-info: #ffffff;
+
+  --text-default: #f0eeff;
+  --text-muted: #b8b0e8;
+
+  --disabled: #4e4688;
+  --text-disabled: #7c72c4;
+
+  /* Extras de estilo */
+  --gradient-primary: linear-gradient(135deg, #9333ea 0%, #6366f1 100%);
+  --gradient-dark: linear-gradient(180deg, #0e0b28 0%, #07051a 100%);
+  --glow-primary: 0 0 20px rgba(147, 51, 234, 0.4);
+  --glow-strong: 0 0 40px rgba(147, 51, 234, 0.6);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --border-subtle: 1px solid rgba(147, 51, 234, 0.2);
+}

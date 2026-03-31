@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem 0;
+}
+
+.container {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: clamp(8rem, 30vw, 16rem);
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 0 30px rgba(147, 51, 234, 0.5));
+  letter-spacing: 0.05em;
+  position: relative;
+  transition: filter 0.3s ease;
+}
+
+.container::after {
+  content: attr(data-time);
+  position: absolute;
+  inset: 0;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: blur(20px);
+  opacity: 0.3;
+  pointer-events: none;
+}
